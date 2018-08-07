@@ -12,7 +12,7 @@ public class FunctionApplication {
 
 	@Bean
 	Function<String, String> sayHi() {
-		return s -> "Hi Manila " + s;
+		return s -> "Hi " + s;
 	}
 
 	public static void main(String[] args) {
